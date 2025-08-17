@@ -1,10 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-import hostAvatar from '@/assets/host-avatar.jpg';
-import expert1Avatar from '@/assets/expert1-avatar.jpg';
-import expert2Avatar from '@/assets/expert2-avatar.jpg';
-import YashwanthPICPodcast from '@/assets/YashwanthPICPodcast.jpg';
-import SharathPICPodcast from '@/assets/SharathPICPodcast.jpg';
-import suzainPodcast from '@/assets/suzainPodcast.png';
 
 
 const TeamSection = () => {
@@ -33,7 +27,7 @@ const TeamSection = () => {
     {
       name: "Yashwanth R",
       role: "Podcast Host",
-      avatar: YashwanthPICPodcast,
+      avatar: "/YashwanthPICPodcast.jpg",
       isCustomLayout: true, // flag to identify custom layout
       specialties: ["Podcast Hosting", "Public Speaking", "Tech Enthusiasm"],
       gradient: "bg-gradient-primary",
@@ -47,7 +41,7 @@ const TeamSection = () => {
     {
       name: "Suzain Khan",
       role: "The Tech Expert",
-      avatar: suzainPodcast,
+      avatar: "/suzainPodcast.png",
       isCustomLayout: true, // flag to identify custom layout
       specialties: ["Podcast Hosting", "Public Speaking", "Tech Enthusiasm"],
       gradient: "bg-gradient-secondary",
@@ -61,7 +55,7 @@ const TeamSection = () => {
     {
       name: "Sharath Kumar BI",
       role: "The Curious Mind",
-      avatar: SharathPICPodcast,
+      avatar: "/SharathPICPodcast.jpg",
       isCustomLayout: true, // flag to identify custom layout
       specialties: ["Podcast Hosting", "Public Speaking", "Tech Enthusiasm"],
       gradient: "bg-gradient-accent",

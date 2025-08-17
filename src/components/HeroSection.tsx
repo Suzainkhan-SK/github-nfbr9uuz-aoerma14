@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import podcastLogo from '@/assets/podcast-logo.jpg';
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,7 +29,7 @@ const HeroSection = () => {
         <div className={`${fadeInClass(200)} mb-8`} style={{ transitionDelay: '200ms' }}>
           <div className="relative inline-block">
             <img
-              src={podcastLogo}
+              src={`${import.meta.env.BASE_URL}podcast-logo.jpg`}
               alt="Vibe Coding Podcast"
               className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 mx-auto rounded-full shadow-lg border-4 border-white/20 hover:scale-105 transition-transform duration-300"
               loading="eager"
