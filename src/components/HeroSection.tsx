@@ -119,7 +119,7 @@ const HeroSection = () => {
               <p className="text-sm text-primary mb-1">✨ Highlights</p>
               <ul className="list-disc pl-5 space-y-1 text-primary/90">
                 <li>💡 Innovative no-code concepts</li>
-                <li>🎤 Hosted by passionate creators</li>
+                <li>🎤 Hosted by passionate students</li>
                 <li>🌎 Exploring the future of development</li>
               </ul>
             </div>
