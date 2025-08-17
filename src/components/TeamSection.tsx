@@ -27,7 +27,7 @@ const TeamSection = () => {
     {
       name: "Yashwanth R",
       role: "Podcast Host",
-      avatar: "/YashwanthPICPodcast.jpg",
+      avatar: "https://i.ibb.co/WpsTWkWL/Yashwanth-PICPodcast.jpg",
       isCustomLayout: true, // flag to identify custom layout
       specialties: ["Podcast Hosting", "Public Speaking", "Tech Enthusiasm"],
       gradient: "bg-gradient-primary",
@@ -41,7 +41,7 @@ const TeamSection = () => {
     {
       name: "Suzain Khan",
       role: "The Tech Expert",
-      avatar: "/suzainPodcast.png",
+      avatar: "https://i.ibb.co/NdRnFzsp/suzain-Podcast.png",
       isCustomLayout: true, // flag to identify custom layout
       specialties: ["Podcast Hosting", "Public Speaking", "Tech Enthusiasm"],
       gradient: "bg-gradient-secondary",
@@ -55,7 +55,7 @@ const TeamSection = () => {
     {
       name: "Sharath Kumar BI",
       role: "The Curious Mind",
-      avatar: "/SharathPICPodcast.jpg",
+      avatar: "https://i.ibb.co/Pv3t1z3w/Sharath-PICPodcast.jpg",
       isCustomLayout: true, // flag to identify custom layout
       specialties: ["Podcast Hosting", "Public Speaking", "Tech Enthusiasm"],
       gradient: "bg-gradient-accent",
