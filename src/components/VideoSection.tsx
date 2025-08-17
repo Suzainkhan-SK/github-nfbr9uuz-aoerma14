@@ -153,7 +153,7 @@ const VideoSection = () => {
             <div className="text-muted-foreground">Duration</div>
           </div>
           <div className="glass rounded-2xl p-6 text-center">
-            <div className="text-3xl font-bold text-primary mb-2">4K</div>
+            <div className="text-3xl font-bold text-primary mb-2">HD+</div>
             <div className="text-muted-foreground">Quality</div>
           </div>
           <div className="glass rounded-2xl p-6 text-center">
